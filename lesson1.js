@@ -1,0 +1,1 @@
+let newVariable = 10;
