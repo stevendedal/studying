@@ -1,0 +1,54 @@
+@import url(resset.css);
+*{
+    box-sizing: border-box;
+}
+.cart_content {
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.cart_table{
+border-collapse: collapse;
+}
+.cart_table td,th{
+    border-bottom: 1px solid;
+   
+}
+.cart_table td{
+    min-height: 120px;
+}
+
+.cart_title{
+    text-align: center; 
+    font-size: 35px;
+    margin:20px 20px;
+}
+.cart_item{
+    display: flex;
+    align-items: center
+}
+.cart_item_img{
+    height:80px;
+    width:auto
+}
+.cart_price{
+    text-align: center;
+    vertical-align: middle;
+} 
+ .cart_quantity{
+    vertical-align: middle;
+    text-align: center;
+} 
+ .subtotal{
+    vertical-align: middle;
+    text-align: center;
+}
+thead th{
+    padding-left: 25px;
+
+    
+}
+.cart_content{
+    display: flex;
+    flex-direction: column;
+}
